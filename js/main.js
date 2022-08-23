@@ -10,7 +10,12 @@
 
   let a = 'Bonjour';
 
-  const celcius = prompt('Entrez une température :');
+  const celcius = Number(prompt('Température en celcius :'));
+
+  if(isNaN) {
+    alert('Il faut un nombre');
+    return;
+  }
   let fahrenheit  = celcius * 9 / 5 + 32;
   alert(`${celcius}°C = ${fahrenheit}°F`);
 
