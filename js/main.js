@@ -11,8 +11,8 @@
   let a = 'Bonjour';
 
   const celcius = prompt('Entrez une température :');
-  let far  = celcius * 9 / 5 + 32;
-  alert(` ${celcius} = ${far}`);
+  let fahrenheit  = celcius * 9 / 5 + 32;
+  alert(` ${celcius}°C = ${fahrenheit}F`);
 
   console.log(a);
 }()); // Main IIFE
