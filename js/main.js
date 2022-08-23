@@ -8,8 +8,6 @@
 (function main() {
   'use strict'; // Demande un interprétation stricte du code
 
-  let a = 'Bonjour';
-
   const celcius = Number(prompt('Température en celcius :'));
 
   if(isNaN(celcius)) {
