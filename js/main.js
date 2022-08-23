@@ -12,7 +12,7 @@
 
   const celcius = Number(prompt('Température en celcius :'));
 
-  if(isNaN) {
+  if(isNaN(celcius)) {
     alert('Il faut un nombre');
     return;
   }
