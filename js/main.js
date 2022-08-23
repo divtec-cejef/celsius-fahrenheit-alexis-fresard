@@ -10,7 +10,9 @@
 
   let a = 'Bonjour';
 
-  const celcius = prompt()
+  const celcius = prompt('Entrez une température :');
+  let far  = celcius * 9 / 5 + 32;
+  alert(` ${celcius} = ${far}`);
 
   console.log(a);
 }()); // Main IIFE
